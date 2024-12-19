@@ -1,0 +1,132 @@
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px 5px;
+}
+
+label {
+  width: max-content;
+  color: tomato;
+  font-size: 14px;
+  border-bottom: 0.5px solid tomato;
+  margin: 3px 0;
+}
+.title {
+  font-size: 18px;
+}
+.desc {
+  font-size: 16px;
+}
+.star {
+  color: gold;
+}
+.money {
+  color: green;
+}
+.price{
+  font-size: 18px;
+  padding: 0;
+}
+.username {
+  font-size: 16px;
+}
+.date {
+  font-size: 14px;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(88, 87, 87);
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 14px;
+  color: rgb(185, 184, 184);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.buttons,
+.logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.logout{
+  background-color: tomato;
+}
+
+.login{
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.register{
+  background-color: slateblue;
+}
+
+.priceSection{
+  display: flex;
+  align-items: flex-start;
+}
+
+.pinButtons{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.pinButtons button{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: tomato;
+}
